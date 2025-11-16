@@ -1,0 +1,21 @@
+# Virtual env
+ProjectMlOps_venv/
+venv/
+
+# Airflow
+airflow.db
+logs/
+*.log
+
+# MLflow local
+mlruns/
+
+# Temp
+tmp/
+*.tmp
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
