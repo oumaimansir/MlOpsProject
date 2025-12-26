@@ -1,21 +1,41 @@
-# Virtual env
-ProjectMlOps_venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
 venv/
+ProjectMlOps_venv/
+
+# MLflow
+mlruns/
+mlflow.db
 
 # Airflow
 airflow.db
 logs/
+*.pid
 *.log
+*.sqlite
 
-# MLflow local
-mlruns/
-
-# Temp
-tmp/
-*.tmp
-__pycache__/
-*.pyc
-
-# IDE
+# OS & IDE
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
+*.swp
+
+# Docker
+*.env
+*.tar
+docker-compose.override.yml
+
+# Models and datasets (optional if too large)
+models/
+data/
+
